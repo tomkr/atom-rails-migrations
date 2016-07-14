@@ -1,0 +1,21 @@
+{
+  "name": "atom-rails-migrations",
+  "main": "./lib/atom-rails-migrations",
+  "version": "0.0.1",
+  "description": "Run Rails migrations from Atom",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": [
+      "atom-rails-migrations:run",
+      "atom-rails-migrations:rollback",
+      "atom-rails-migrations:status",
+      "atom-rails-migrations:hide"
+    ]
+  },
+  "repository": "https://github.com/atom/atom-rails-migrations",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

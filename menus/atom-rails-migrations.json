@@ -1,0 +1,30 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Rails Migrations",
+          "submenu": [
+            {
+              "label": "Run",
+              "command": "atom-rails-migrations:run"
+            },
+            {
+              "label": "Rollback",
+              "command": "atom-rails-migrations:rollback"
+            },
+            {
+              "label": "Status",
+              "command": "atom-rails-migrations:status"
+            },
+            {
+              "label": "Hide",
+              "command": "atom-rails-migrations:hide"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
